@@ -1,0 +1,101 @@
+問題
+
+這個甘特圖是使用webbuilder畫出一個table再把抓到的資料放到對應的格子中
+還是使用微軟的甘特圖的相關套件建設完成呢
+
+樣式二的解釋 對於用寬窄 淡濃透明 與 虛實線的解釋有些不太清楚，是只要實際的排程就好了嗎
+還是以樣式一的實際與預排的結果產生的，但是不知道樣式一與樣式二之間的關係也不太清楚
+
+樣式一的預設與實際的排程 是預排的時間都是以灰色顯示就好了嗎
+
+
+
+===================
+注意
+
+每個排成有4種狀態 灰色(尚未開工)、綠色(已開工,生產中)、紅色(工單暫停)、藍色(已完工)
+如果是已開工的狀態 甘特圖就不能拖拉 
+
+日期區間可以拖拉
+
+以機台代碼當作查詢條件
+輸出 不同機台的工單與現有的工單 並含有時間軸
+
+進度條上能夠呈現資訊 例如:工單號、產品代碼、工單數(for預排條)、已生產數(for實際條)、完成百分比(星星填滿表示)
+並且能夠選擇要不要顯示上面這些資訊
+
+mvc dhtmlxgantt
+mvc sql query to json
+mvc sql 轉 json
+
+mvc javascript data return controller
+https://stackoverflow.com/questions/40833291/return-data-using-javascript-from-view-to-controller-in-mvc
+
+Ajax
+mvc javascript 更改資訊
+
+python 讀取heidisql資料庫
+python mariadb 教學
+https://officeguide.cc/python-mysql-mariadb-database-connector-tutorial-examples/
+https://www.youtube.com/watch?v=7u1_64aY2zw
+https://ithelp.ithome.com.tw/questions/10197921
+http://blog.oli365.com/2019/03/pythonmariadbwindows.html
+https://www.maxlist.xyz/2018/09/23/python_mysql/
+https://www.w3schools.com/python/python_mysql_getstarted.asp
+https://www.runoob.com/python3/python3-mysql.html
+
+python panda read database pymysql
+https://gist.github.com/jhconning/9e0b6cf4900a46e4400d3ee6c3b517b9
+https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_sql.html
+
+matplotlib 繪製 mysql
+https://blog.csdn.net/No1Brother_Jian/article/details/90349446
+
+python matplotlib gantt chart with timeline
+https://stackoverflow.com/questions/69667513/how-to-plot-timeline-in-a-single-bar
+https://ithelp.ithome.com.tw/articles/10277258
+
+排程 (python 生產 排程)
+https://itw01.com/U3M3JEX.html
+https://github.com/QiuBingCheng/MediumArticle/tree/main/HeuristicAlgorithms
+(job shop)
+https://github.com/wurmen/Genetic-Algorithm-for-Job-Shop-Scheduling-and-NSGA-II/blob/master/implementation%20with%20python/GA-jobshop/GA_For_Jobshop.md
+https://medium.com/qiubingcheng/%E4%BB%A5python%E5%AF%A6%E4%BD%9C%E5%9F%BA%E5%9B%A0%E6%BC%94%E7%AE%97%E6%B3%95-genetic-algorithm-ga-%E4%B8%A6%E8%A7%A3%E6%B1%BA%E5%B7%A5%E4%BD%9C%E6%8C%87%E6%B4%BE%E5%95%8F%E9%A1%8C-job-assignment-problem-jap-b0d7c4ad6d0f
+https://github.com/PO-LAB/Intelligent-Manufacturing-Systems
+
+(搜尋方法)
+python Single Machine Scheduling
+
+(greedy 演算法 python)(greedy python code)
+https://www.itread01.com/article/1513673487.html
+https://www.youtube.com/watch?v=QvSIAB27Vdk
+https://www.coursera.org/lecture/pbc1/05-d02-lpt-yan-suan-fa-shi-zuo-MicXV
+https://www.youtube.com/watch?v=jathKNkeP90
+https://medium.com/@nobodybutyou.lin/%E5%BE%9E%E6%BC%94%E7%AE%97%E6%B3%95%E7%B7%B4python-1-778e33e8c52e
+
+(pandas datafram column 重新命名)
+https://www.delftstack.com/zh-tw/howto/python-pandas/how-to-rename-columns-in-pandas/
+
+(基因演算法 影片)
+https://www.youtube.com/watch?v=o3XqMLs2eBQ
+
+(使用這裡面的方法試試看)
+https://louis176127.pixnet.net/blog/post/124200614
+
+1.使用P16方法
+https://ghresource.mt.ntnu.edu.tw/uploads/1618968387828B5b9APGT.pdf
+2.用python的結構放入資料並排序(python 結構 排序)
+https://blog.csdn.net/qq_52480906/article/details/120580305
+
+(ortools)
+搜尋:使用ortools 排程
+https://developers.google.com/optimization/scheduling/job_shop
+https://tw.pythontechworld.com/article/detail/stfdMgL8t0uG
+
+(使用job_shop)
+https://developers.google.com/optimization/scheduling/job_shop
+隨機產生job與優先序與持續時間
+放入資料庫
+將資料庫的資料取出，並將相同的機台放在相同的row並分配機器
+將資料放回excel
+使用基因演算法分配
